@@ -43,10 +43,10 @@ while True:
             print("You enter code for #2 here")
             # CODE HERE ENTERED
         elif choice == '3':
-            print("You enter code for #3 here")
+            print(num1,'*',num2,'=',multiply(num1,num2))
             
         elif choice == '4':
-            print("You enter code for #4 here")
+            print(num1,'/',num2,'=',divide(num1,num2))
             
         # check if user wants another calculation
         # break the while loop if answer is no
